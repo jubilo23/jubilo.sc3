@@ -38,7 +38,6 @@ mat-toolbar {
     align-items: center;
     justify-content: flex-start;
     font-size: 1rem;
-   
   }
 
   button:hover {
@@ -148,9 +147,9 @@ mat-toolbar {
     }
     .contenedor figure{
        position:relative;
-        height: 400px;
+        height: 390px;
         cursor: pointer;
-        width: 460px;
+        width: 440px;
         overflow: hidden; 
         border-radius: 10px;
         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
