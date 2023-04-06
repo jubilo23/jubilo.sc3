@@ -1,5 +1,5 @@
 <mat-toolbar class="mat-elevation-z8">
-  <button
+  <button class="button-cierre"
     mat-icon-button
     *ngIf="sidenav.mode === 'over'"
     (click)="sidenav.toggle()">
@@ -11,8 +11,6 @@
       <p class="title2">Júbilo y Adoración</p>
       <p class="title3">Iglesia Cristiana Independiente Pentecostes A.R. ICIPAR</p>
   </div>
- 
-   
 </mat-toolbar>
 
 <mat-sidenav-container>
@@ -30,13 +28,31 @@
     </button>
     <button mat-button class="menu-button" routerLink="/profile">
       <mat-icon>person</mat-icon>
-      <span>Perfil</span>
+      <span>Eventos</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/profile">
+      <mat-icon>person</mat-icon>
+      <span>Culto General</span>
     </button>
     <button mat-button class="menu-button" routerLink="/about">
       <mat-icon>info</mat-icon>
-      <span>Información</span>
+      <span>Culto Varones</span>
     </button>
 
+
+
+    <button mat-button class="menu-button" routerLink="/home">
+      <mat-icon>home</mat-icon>
+      <span>Culto Femenil</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/profile">
+      <mat-icon>person</mat-icon>
+      <span>Culto Jovenes</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/about">
+      <mat-icon>info</mat-icon>
+      <span>Bautizos</span>
+    </button>
     <mat-divider></mat-divider>
 
     <button mat-button class="menu-button" routerLink="/help">
@@ -44,9 +60,32 @@
       <span>Ayuda</span>
     </button>
   </mat-sidenav>
+  
   <mat-sidenav-content>
     <div class="content mat-elevation-z8">
-      <router-outlet></router-outlet>
+      <router-outlet> </router-outlet>
+        <div class="contenedor">
+          <a href="#">
+               <figure>
+                   <img src="assets/images/orar.jpg">
+                   <div class="capa">
+                       <h3>2 Crónicas 7:14</h3>
+                       <p>Si se humillare mi pueblo, sobre el cual mi nombre es invocado, 
+                        y oraren, y buscaren mi rostro, y se convirtieren de sus malos caminos; entonces yo oiré 
+                        desde los cielos, y perdonaré sus pecados, y sanaré su tierra</p>
+                   </div>
+               </figure>
+           </a>
+        </div>
+      
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
+
+
+<div align="center">
+  <h1>Misión</h1>
+  <h1>Visión</h1>
+</div>
+
+
