@@ -16,12 +16,14 @@ import { CultosComponent } from './components/cultos/cultos.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { EventComponent } from './components/event/event.component';
+import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent }, 
-  { path: 'cultos', component: CultosComponent } 
-  
+  { path: 'cultos', component: CultosComponent }, 
+  { path: 'event', component: EventComponent } 
 ];
 
 @NgModule({
@@ -43,6 +45,7 @@ const routes: Routes = [
     MatIconModule,
     MatDividerModule,
     LayoutModule,
+    NgxYoutubePlayerModule.forRoot(),
     RouterModule.forRoot(routes)
   ],
   providers: [],
