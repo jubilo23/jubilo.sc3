@@ -66,6 +66,8 @@ MIT
 @ngneat/until-destroy
 MIT
 
+ngx-youtube-player
+
 rxjs
 Apache-2.0
                                Apache License
