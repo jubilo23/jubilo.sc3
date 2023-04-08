@@ -11,13 +11,27 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {LayoutModule} from '@angular/cdk/layout';
+import { FooterComponent } from './components/footer/footer.component';
+import { CultosComponent } from './components/cultos/cultos.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './components/home/home.component';
+import { EventComponent } from './components/event/event.component';
 
-
+const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent }, 
+  { path: 'cultos', component: CultosComponent } 
+  
+];
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidenaComponent
+    SidenaComponent,
+    FooterComponent,
+    CultosComponent,
+    HomeComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +42,8 @@ import {LayoutModule} from '@angular/cdk/layout';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    LayoutModule
+    LayoutModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

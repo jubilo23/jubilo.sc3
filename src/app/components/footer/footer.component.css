@@ -1,0 +1,24 @@
+.container{
+    margin-bottom: -0px;
+}
+
+.text-footer{
+    position: relative;
+    margin-top: 10px;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-footer2{
+    position: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.icono-imagen{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
