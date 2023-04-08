@@ -16,12 +16,10 @@ mat-sidenav {
 }
 
 .content {
-  /*height: calc(100vh - 130px);
-  border-radius: 10px;*/
-  /*margin: 16px;
-  margin-left: 1px;
-  padding: 16px;*/
-  margin: none;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 10px;
+  padding: 16px;
   background: radial-gradient(#fbfbfc, #d3cece9a); 
   
 }
