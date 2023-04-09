@@ -17,12 +17,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { EventComponent } from './components/event/event.component';
 import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
+import { PredicasComponent } from './components/predicas/predicas.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent }, 
   { path: 'cultos', component: CultosComponent }, 
+  { path: 'predicas', component: PredicasComponent }, 
   { path: 'event', component: EventComponent } 
 ];
 
@@ -33,7 +35,8 @@ const routes: Routes = [
     FooterComponent,
     CultosComponent,
     HomeComponent,
-    EventComponent
+    EventComponent,
+    PredicasComponent
   ],
   imports: [
     BrowserModule,
