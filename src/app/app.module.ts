@@ -18,6 +18,10 @@ import { HomeComponent } from './components/home/home.component';
 import { EventComponent } from './components/event/event.component';
 import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 import { PredicasComponent } from './components/predicas/predicas.component';
+import { CultmenComponent } from './components/cultmen/cultmen.component';
+import { CultwomanComponent } from './components/cultwoman/cultwoman.component';
+import { BautizosComponent } from './components/bautizos/bautizos.component';
+import { YoungComponent } from './components/young/young.component';
 
 
 const routes: Routes = [
@@ -25,6 +29,10 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent }, 
   { path: 'cultos', component: CultosComponent }, 
   { path: 'predicas', component: PredicasComponent }, 
+  { path: 'cultmen', component: CultmenComponent }, 
+  { path: 'cultwoman', component: CultwomanComponent },
+  { path: 'baptism', component: BautizosComponent },
+  { path: 'young', component: YoungComponent },
   { path: 'event', component: EventComponent } 
 ];
 
@@ -36,7 +44,11 @@ const routes: Routes = [
     CultosComponent,
     HomeComponent,
     EventComponent,
-    PredicasComponent
+    PredicasComponent,
+    CultmenComponent,
+    CultwomanComponent,
+    BautizosComponent,
+    YoungComponent
   ],
   imports: [
     BrowserModule,
