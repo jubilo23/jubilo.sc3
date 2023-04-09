@@ -34,6 +34,14 @@ mat-sidenav-content {
   align-items: center;
   justify-content: flex-start;
   font-size: 0.9rem;
+  color: #fbfbfc;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
 }
 
 button:hover {

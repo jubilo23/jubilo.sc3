@@ -13,8 +13,8 @@ export class PredicasComponent implements OnInit {
   id2 = 'pY0LgpXhE4k';
   id3 = 'elXyv4nBADU';
   id4 = '6JqsFAhN574';
-  id5 = 'i0i8RHM-O14';
-  id6 = '60C6-kH-p-Y';
+  id5 = 'lpUZKzgjyKY';
+  id6 = 'HhMvNKTZ8bA';
   player: any; 
 
   savePlayer(player: any) {
@@ -26,7 +26,7 @@ export class PredicasComponent implements OnInit {
   }
 
   constructor(private router: Router) {
-
+    
    }
 
   ngOnInit(): void {

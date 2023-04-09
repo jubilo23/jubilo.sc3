@@ -50,8 +50,9 @@ h1 {
 
 .circular--square {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
+
   }
 
 
@@ -62,6 +63,10 @@ h1 {
     width: 230px;
     align-content: center;
     left: 1px;
+  }
+
+  .div-container{
+    margin-bottom: 70px;
   }
   
   @media screen and (max-width: 480px) {
@@ -95,8 +100,8 @@ h1 {
 #container {
 
     width:100%;
-    text-align:center;
     margin-bottom: 350px;
+    align-items: center;
 }
 
 #left {
