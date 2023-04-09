@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+import { Subscription, filter } from 'rxjs';
 
 @Component({
   selector: 'app-predicas',
@@ -23,9 +25,13 @@ export class PredicasComponent implements OnInit {
     console.log('player state', event.data);
   }
 
-  constructor() { }
+  constructor(private router: Router) {
+
+   }
 
   ngOnInit(): void {
+
+    
     const tag = document.createElement('script');
 
     tag.src = "https://www.youtube.com/iframe_api";
