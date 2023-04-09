@@ -23,6 +23,10 @@ h1 {
     line-height: 1.4;
   }
 
+  span{
+    background: #fff;
+    padding: 0 15px;
+  }
   .div-principal{
     width: 100%;
     height: 40%;
@@ -124,4 +128,43 @@ h1 {
         width: 100%;
         max-width: 220px;
         margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Configuracion de span para el titulo*/
+    h2 {
+      text-align: center;
+      color: rgb(207, 49, 36);
+      font-size: 2rem;
+      /*background: radial-gradient(#fbfbfc, #d3cece9a); */
+    }
+    h2.linea {
+      position: relative;
+      z-index: auto;
+    }
+    h2.linea:before {
+      border-top: 3px solid #aa0d15;
+      content: "";
+
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1;
+    }
+    h2.linea span { 
+      padding: 0 10px;
+    
     }
