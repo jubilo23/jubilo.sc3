@@ -22,6 +22,7 @@ import { CultmenComponent } from './components/cultmen/cultmen.component';
 import { CultwomanComponent } from './components/cultwoman/cultwoman.component';
 import { BautizosComponent } from './components/bautizos/bautizos.component';
 import { YoungComponent } from './components/young/young.component';
+import { HelpComponent } from './components/help/help.component';
 
 
 const routes: Routes = [
@@ -33,6 +34,7 @@ const routes: Routes = [
   { path: 'cultwoman', component: CultwomanComponent },
   { path: 'baptism', component: BautizosComponent },
   { path: 'young', component: YoungComponent },
+  { path: 'help', component: HelpComponent },
   { path: 'event', component: EventComponent } 
 ];
 
@@ -48,7 +50,8 @@ const routes: Routes = [
     CultmenComponent,
     CultwomanComponent,
     BautizosComponent,
-    YoungComponent
+    YoungComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
