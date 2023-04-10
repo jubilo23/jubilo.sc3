@@ -39,14 +39,20 @@ mat-sidenav-content {
 
 a:link {
   text-decoration: none;
+  width: 100px;
 }
 a:visited {
   text-decoration: none;
 }
 
-button:hover {
+/*button:hover {
   color: #ddc03e;
   cursor: pointer;
+}*/
+
+button:hover{
+  /*background-color:#e62c6a !important;*/
+  background-color:#c2124d !important;
 }
 
 .avatar {
