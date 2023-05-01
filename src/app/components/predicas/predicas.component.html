@@ -4,41 +4,28 @@
         <div class="container mt-2">
             <div class="row">
                 <div class="col">
-                    <youtube-player 
-                    [videoId]="id5"
+
+                <youtube-player 
+                    [videoId]="id"
                     [height]="270" 
                     [width]="350" 
                     (ready)="savePlayer($event)"
                     (change)="onStateChange($event)">
                 </youtube-player>
                 <youtube-player 
-                    [videoId]="id6"
+                    [videoId]="id2"
                     [height]="270" 
                     [width]="350" 
                     (ready)="savePlayer($event)"
                     (change)="onStateChange($event)">
                 </youtube-player>
-                    <youtube-player 
-                        [videoId]="id2"
-                        [height]="270" 
-                        [width]="350" 
-                        (ready)="savePlayer($event)"
-                        (change)="onStateChange($event)">
-                    </youtube-player>
-                    <youtube-player 
-                        [videoId]="id"
-                        [height]="270" 
-                        [width]="350" 
-                        (ready)="savePlayer($event)"
-                        (change)="onStateChange($event)">
-                    </youtube-player>
-                    <youtube-player 
-                        [videoId]="id3"
-                        [height]="270" 
-                        [width]="350" 
-                        (ready)="savePlayer($event)"
-                        (change)="onStateChange($event)">
-                    </youtube-player>
+                <youtube-player 
+                    [videoId]="id3"
+                    [height]="270" 
+                    [width]="350" 
+                    (ready)="savePlayer($event)"
+                    (change)="onStateChange($event)">
+                </youtube-player>
                     <youtube-player 
                         [videoId]="id4"
                         [height]="270" 
@@ -46,6 +33,21 @@
                         (ready)="savePlayer($event)"
                         (change)="onStateChange($event)">
                     </youtube-player>
+                    <youtube-player 
+                        [videoId]="id5"
+                        [height]="270" 
+                        [width]="350" 
+                        (ready)="savePlayer($event)"
+                        (change)="onStateChange($event)">
+                    </youtube-player>
+                    <youtube-player 
+                        [videoId]="id6"
+                        [height]="270" 
+                        [width]="350" 
+                        (ready)="savePlayer($event)"
+                        (change)="onStateChange($event)">
+                    </youtube-player>
+                   
                    
                 </div>
             </div>

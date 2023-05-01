@@ -9,12 +9,13 @@ import { Subscription, filter } from 'rxjs';
 })
 export class PredicasComponent implements OnInit {
 
-  id = 'NGasEvuwqmk';
-  id2 = 'pY0LgpXhE4k';
-  id3 = 'elXyv4nBADU';
-  id4 = '6JqsFAhN574';
+  id = 's5KjE69sfhU';
+  id2 = 'XGUokl7YjCk';
+  id3 = 'HhMvNKTZ8bA';
+  id4 = 'n3UG69mPZQE';
   id5 = 'lpUZKzgjyKY';
-  id6 = 'HhMvNKTZ8bA';
+  id6 = 'elXyv4nBADU';
+  
   player: any; 
 
   savePlayer(player: any) {
