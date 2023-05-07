@@ -23,7 +23,6 @@ import { CultwomanComponent } from './components/cultwoman/cultwoman.component';
 import { BautizosComponent } from './components/bautizos/bautizos.component';
 import { YoungComponent } from './components/young/young.component';
 import { HelpComponent } from './components/help/help.component';
-/*import { GoogleMapsModule } from '@angular/google-maps';*/
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },

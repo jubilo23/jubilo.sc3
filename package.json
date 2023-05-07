@@ -24,6 +24,7 @@
     "@ngneat/until-destroy": "^9.2.3",
     "@types/googlemaps": "^3.39.13",
     "angular-cli-ghpages": "^1.0.5",
+    "angular2-google-maps": "^0.17.0",
     "ngx-youtube-player": "^12.0.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
